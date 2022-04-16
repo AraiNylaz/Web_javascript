@@ -15,7 +15,9 @@ une fois installé, créer un dossier 'Javascript_Web_Cours', ouvrir une fenètr
  
 -  ``git clone https://github.com/AraiNylaz/Web_javascript.git`` (toujours dans le dossier Javascript_Web_Cours)
 ce déplacer/changer de directory(repertoire) : 
--  ``cd Web_Javascript`` (si tu tapes W puis la touche tab  ![alt text](https://github.com/AraiNylaz/Web_javascript/blob/main/tab.jpg?raw=true =100x20)  il te marquera directement le dossier)
+-  ``cd Web_Javascript`` (si tu tapes W puis la touche tab  ![alt text](https://github.com/AraiNylaz/Web_javascript/blob/main/tab.jpg?raw=true=100x20)  il te marquera directement le dossier)
+
+<img src="https://github.com/AraiNylaz/Web_javascript/blob/main/tab.jpg?raw=true" alt="tab" width="200"/>
 vérifier que tout c'est bien passé : 
 -  ``git status``
 
