@@ -15,7 +15,7 @@ une fois installé, créer un dossier 'Javascript_Web_Cours', ouvrir une fenètr
  
 -  ``git clone https://github.com/AraiNylaz/Web_javascript.git`` (toujours dans le dossier Javascript_Web_Cours)
 ce déplacer/changer de directory(repertoire) : 
--  ``cd Web_Javascript`` (si tu tapes W puis la touche tab  photo5  il te marquera directement le dossier)
+-  ``cd Web_Javascript`` (si tu tapes W puis la touche tab  ![alt text](https://github.com/AraiNylaz/Web_javascript/blob/main/tab.jpg?raw=true)  il te marquera directement le dossier)
 vérifier que tout c'est bien passé : 
 -  ``git status``
 
@@ -37,3 +37,8 @@ https://www.w3schools.com/python/default.asp
 
 librairie js 3D
 https://threejs.org/
+
+
+
+
+
