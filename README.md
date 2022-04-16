@@ -1,4 +1,26 @@
 ReadME
+pour utiliser le repository en local :: 
+- soit le télécharger / .zip, .tar, .7z, ...
+- soit installer githubDesktop et cloner le repo en cliquant
+- soit cloner le repo via commandes...
+pour cloner ce repository il faut installer git : 
+[![forthebadge](http://assets.stickpng.com/images/5847f981cef1014c0b5e48be.png)](https://git-scm.com/downloads)
+
+une fois installé, créer un dossier 'Javascript_Web_Cours', ouvrir une fenètre terminal dans celui-ci
+![alt text](https://github.com/AraiNylaz/Web_javascript/blob/main/Capture.JPG?raw=true)
+
+![alt text](https://github.com/AraiNylaz/Web_javascript/blob/main/capture2.png?raw=true)
+
+![alt text](https://github.com/AraiNylaz/Web_javascript/blob/main/Capture3.png?raw=true)
+ 
+-  ``git clone https://github.com/AraiNylaz/Web_javascript.git`` (toujours dans le dossier Javascript_Web_Cours)
+ce déplacer/changer de directory(repertoire) : 
+-  ``cd Web_Javascript`` (si tu tapes W puis la touche tab  photo5  il te marquera directement le dossier)
+vérifier que tout c'est bien passé : 
+-  ``git status``
+
+![alt text](https://github.com/AraiNylaz/Web_javascript/blob/main/Capture4.JPG?raw=true)
+
 
 notions HTML
 //cours de Mr Olivier Choquet super prof de web1 et Infra ! 
@@ -12,3 +34,6 @@ https://www.w3schools.com/css/default.asp
 https://www.w3schools.com/js/default.asp
 https://www.w3schools.com/bootstrap/bootstrap_ver.asp
 https://www.w3schools.com/python/default.asp
+
+librairie js 3D
+https://threejs.org/
