@@ -4,7 +4,7 @@ pour utiliser le repository en local ::
 - soit installer githubDesktop et cloner le repo en cliquant
 - soit cloner le repo via commandes...
 pour cloner ce repository il faut installer git : 
-[![forthebadge](https://www.google.com/search?q=git+lovo&tbm=isch#imgrc=ptEW5drkEPh7KM)](https://git-scm.com/downloads)
+[![git download](https://developer.asustor.com/uploadIcons/0020_999_1596442150_GIT.png)](https://git-scm.com/downloads)
 
 une fois installé, créer un dossier 'Javascript_Web_Cours', ouvrir une fenètre terminal dans celui-ci
 ![alt text](https://github.com/AraiNylaz/Web_javascript/blob/main/Capture.JPG?raw=true)
