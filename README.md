@@ -12,7 +12,7 @@
 <img src="https://developer.asustor.com/uploadIcons/0020_999_1596442150_GIT.png" alt="git download" width="50"/>
 </a>
 
-## une fois installé, créer un dossier 'Javascript_Web_Cours', ouvrir une fenètre terminal dans celui-ci
+### une fois installé, créer un dossier 'Javascript_Web_Cours', ouvrir une fenètre terminal dans celui-ci
 ![alt text](https://github.com/AraiNylaz/Web_javascript/blob/main/Capture.JPG?raw=true)
 
 ![alt text](https://github.com/AraiNylaz/Web_javascript/blob/main/capture2.png?raw=true)
@@ -20,10 +20,10 @@
 ![alt text](https://github.com/AraiNylaz/Web_javascript/blob/main/Capture3.png?raw=true)
  
 -  ``git clone https://github.com/AraiNylaz/Web_javascript.git`` (toujours dans le dossier Javascript_Web_Cours)
-## ce déplacer/changer de directory(repertoire) : 
+### ce déplacer/changer de directory(repertoire) : 
 -  ``cd Web_Javascript`` (si tu tapes W puis la touche tab  <img src="https://github.com/AraiNylaz/Web_javascript/blob/main/tab.jpg?raw=true" alt="tab" width="50"/>  il t'indiquera directement le dossier)
 
-## vérifier que tout c'est bien passé : 
+### vérifier que tout c'est bien passé : 
 -  ``git status``
 
 -----------------
