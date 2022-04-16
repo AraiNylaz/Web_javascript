@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="author" content="Choquet Olivier" />
+<title>e-Syllabus HTML5 et CSS3 - Accueil</title>
+<!-- une icône dans la barre du navigateur-->
+<link rel=icon href="images/favicon.png" type="image/png">
+<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+</head>
+<body>
+	<!-- bannière et menu -->
+	<header>
+		<div>
+			<h1>Cours d'introduction au Web</h1>
+			<h2>HTML5 et CSS3</h2>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html" class="current">Le cours </a></li>
+				<li><a href="internet.html">Internet </a></li>
+				<li><a href="html5.html">HTML5 </a></li>
+				<li><a href="css3.html">CSS3 </a></li>
+				<li><a href="methodologie.html">Méthodologie </a></li>
+				<li><a href="lexique.html">Lexique</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- section principale -->
+	<section>
+		<div id="menu">
+			<nav>
+				<ol>
+					<li><a href="#comment"> Comment lire ce syllabus </a></li>
+					<li><a href="#intro"> Introduction </a></li>
+					<li><a href="#e-learning"> E-learning </a></li>
+					<li><a href="#e-syllabus"> E-syllabus </a></li>
+					<li><a href="#orga"> Organisation </a></li>
+					<li><a href="#evaluation"> Evaluation </a></li>
+					<li><a href="#ressources"> Ressources </a></li>
+				</ol>
+			</nav>
+			<!-- aside lié à la page et pas à l'article donc pas à l'intérieur de article -->
+			<aside>
+				<p>Liens utiles</p>
+				<ul>
+					<li><a target="_blank" href="http://www.w3.org">W3C </a></li>
+					<li><a
+						target="_blank" href="http://fr.openclassrooms.com/informatique/cours/apprenez-a-creer-votre-site-web-avec-html5-et-css3">Open Classroom </a></li>
+					<li><a target="_blank" href="http://www.w3.org/TR/html5/">Norme HTML5</a></li>
+					<li><a target="_blank" href="http://www.w3schools.com/">W3Schools</a></li>
+					<li><a target="_blank" href="http://www.alsacreations.com/">AlsaCreation</a></li>
+				</ul>
+			</aside>
+		</div>
+		<article>
+			<h1>Le cours</h1>
+			<h2 id="comment">Comment lire ce syllabus</h2>
+			<p>Vous êtes prêts à lire ce syllabus ? Super ! Voici brièvement
+				quelques conventions typographiques utilisées dans ce syllabus.
+				Celles-ci vous permettront de mieux percevoir la structure de ce
+				syllabus mais également de distinguer les points importants.</p>
+			<p>Le menu principal (bleu) se trouve en haut de la page et se
+				compose de 6 rubriques. Chaque rubrique est divisée en section et
+				sous-section. A gauche un menu (orange) permet de naviguer
+				rapidement à l'intérieur d'une rubrique. Ce menu propose également
+				un rappel des différents liens intéressants de la rubrique (bleu
+				marine).</p>
+			<p>Les conventions typographiques :</p>
+			<h2>Je suis une section</h2>
+			<h4>Je suis une sous-section</h4>
+			<h5>Je suis une sous-sous-section</h5>
+
+			<p>
+				<em>Je suis en évidence. Je suis donc une clé du paragraphe qui
+					me contient.</em>
+			</p>
+			<p>
+				<span class="html">Je suis un mot du langage HTML ou CSS</span>
+			</p>
+			<p class="information">
+				<img src="./images/information.png" alt="Information"
+					class="floatLeft" /> Je suis une information complémentaire pour
+				votre culture générale. Vous pouvez m'ignorer.
+			</p>
+			<p class="important">
+				<img src="./images/important.png" alt="Important" class="floatLeft" />
+				Je suis important. Vous ne pouvez pas m'ignorer.
+			</p>
+
+
+		</article>
+		
+		<!-- fin de section partiePrincipale -->
+	</section>
+		<footer>
+		<div>
+			<address>
+				Professeurs : 
+				<a class="mail" href="mailto:olivier.choquet@vinci.be">Choquet
+					Olivier</a> 
+			</address>
+		</div>
+		<div>
+			<p>
+				Si vous détectez une erreur, une faute d'orthographe n'hésitez pas à
+				envoyer un <a href="mailto:olivier.choquet@vinci.be"> mail</a> avec le
+				nom de la page et l'erreur détectée.
+			</p>
+		</div>
+		<div id="version">
+			<p>
+				Syllabus HTML <br> version 5.0
+			</p>
+		</div>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+
+*{  
+  font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+  font-size: 60px;
+}
+
+/************************************************ Partie HEADER **********************************************************************/
+
+header {
+  height:120px;
+  display:flex;
+  flex-direction:row;
+  background : aqua;
+}
+
+
+header div {
+  width: 50%;
+}
+
+
+header nav {
+  width: 50%;
+  margin: 30px;
+  background: red;
+}
+
+/************************************************ Partie CENTRALE **********************************************************************/
+
+section {
+	background:#F7E0AE;
+	display:flex;
+	flex-direction:row;
+}
+
+#menu {
+	display:flex;
+	flex-direction:column;
+}
+
+section nav {  
+  background:#ea7f37;
+  width:250px;
+}
+
+section aside {
+  width:250px;
+  background:#345361;	
+}
+
+article {
+
+}
+
+
+/************************************************ Partie FOOTER **********************************************************************/
+footer {
+	height:100px;
+	background:#494949;
+	color:white;
+}
+

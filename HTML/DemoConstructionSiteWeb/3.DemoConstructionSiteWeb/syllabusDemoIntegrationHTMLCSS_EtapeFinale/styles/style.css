@@ -1,0 +1,259 @@
+/* mettre par défaut toutes les marges intérieures et extérieures à 0 */
+* { margin: 0; padding: 0; outline: 0;}
+
+
+/************************************************ Partie HEADER **********************************************************************/
+
+@media screen and (max-height:500px)
+{
+	header {display:none;}
+}
+
+@media screen and (max-height:600px)
+{
+	#menu li a {font-size:10px !important;}
+	aside {display:none;}
+}
+
+header {
+  height:120px;
+  display:flex;
+  flex-direction:row;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  /* dégradé de bleu */
+  /* navigateur mozilla firefox*/
+  background-image:-moz-linear-gradient(top,#77dcfb,#0aafe1);
+  /* navigateur Chrome 10 et suivants ainsi que pour Safari 5.1 et suivants */
+  background-image:-webkit-linear-gradient(top,#77dcfb,#0aafe1);
+  /* navigateur Opera */
+  background-image:-o-linear-gradient(top,#77dcfb,#0aafe1);
+  /* navigateur IE 10 et suivants */
+  background-image:-ms-linear-gradient(top,#77dcfb,#0aafe1);
+  /* vieux navigateur*/
+  /*background-image:linear-gradient(top,#77dcfb,#0aafe1);*/
+  /*text-align:center;*/
+}
+
+header div {
+    width: 50%;
+}
+
+header nav {
+  width: 50%;
+  margin:30px;
+}
+
+/* quelques règles pour décorer les éléments du header */
+
+header h1 {
+	font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+	font-weight: normal; 
+	font-size: 3.0em; 
+	font-style: italic;
+	padding:5px;
+}
+
+header h2 {
+	font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+	font-weight: normal; 
+	font-size: 1.5em; 
+	padding-left:10px;
+}
+
+/* menu horizontal -> transformation du positionnement block vers ligne de la liste */
+header nav li {
+  display:inline;
+}
+
+header nav li a {
+  font-size: 25px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  color: white;
+  font-weight:normal;
+  padding:7px;
+  background-color:transparent;
+  margin-top:0px;
+  margin-right:20px;
+  text-decoration:none;
+}
+
+
+header nav a:hover, nav a.current {
+	color: #14647d;text-shadow: rgba(255,255,255,0.5) 1px 0px 1px; text-decoration: none; border: 1px solid #36b0d9; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -o-border-radius: 10px; background:#9ce6fe;
+	text-decoration:underline;
+}
+
+
+/************************************************ Partie CENTRALE **********************************************************************/
+
+section {
+	background:#F7E0AE;
+	display:flex;
+	flex-direction:row;
+}
+
+#menu {
+	display:flex;
+	flex-direction:column;
+}
+
+section nav {  
+  background:#ea7f37;
+  width:250px;
+  border: solid 3px #DA7C0C;
+  border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -o-border-radius: 10px;
+  margin: 5px;
+}
+
+section aside {
+  width:250px;
+  background:#345361;
+  border: 3px solid; 
+  border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -o-border-radius: 10px;
+  margin:5px;
+  padding-bottom:10px;
+  color:#FFFFFF;
+}
+
+article {
+  font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+  font-size: 1.2em;
+  margin-bottom:10px;
+}
+
+/* quelques règles pour décorer les élément de la zone centrale */
+
+section nav li a {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 1.5em;
+	font-weight:bold;
+}
+aside p {
+   font-size:1.5em;
+   text-align:center;
+   text-decoration:underline;
+}
+
+aside li {
+   list-style:none;
+   padding-left: 15px;
+}
+
+aside li a {
+  color:white;
+}
+
+article h1 {
+  text-align:center;
+  font-size:3em;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+article h2 {
+  font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+  color:#ea7f37;
+  text-align:left;
+  font-size:1.5em;
+  padding-bottom:5px;
+}
+
+article ul{
+  padding-left:20px;
+}
+
+em {
+	color:#CC3300;
+	font-style: normal;
+	font-size: larger;
+}
+
+
+p {
+	margin: .75em 0;
+}
+
+ol {
+  margin-left:20px;
+}
+
+/************************************************ Partie FOOTER **********************************************************************/
+footer {
+	height:150px;
+	background:#494949;
+	color:white;
+	display : flex;
+	flex-direction :row;
+	justify-content : space-around;
+	align-items:center;
+	font-size: 1.2em;
+}
+
+footer div
+{
+	border-right:dashed;
+	padding : 30px;
+}
+
+#version
+{
+  /* pas de border-right pour le dernier élément */
+  border-style:none;
+}
+
+.mail {
+  color:#69c9ef; 
+  /* afficher les mails les uns en dessous des autres */
+  display:block;
+}
+
+/************************************************ Classes **********************************************************************/
+
+.cite {
+  font-style:italic;
+}
+
+.floatRight {
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.floatLeft {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.html {
+	font-family: "Bitstream Vera Mono", "Lucida Console", "Courier New",
+		monospace;
+	font-size: larger;
+	color: purple;
+}
+
+.information {
+   color:green;
+   height:128px;
+   border: 1px solid; 
+   border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -o-border-radius: 10px;
+   margin-right:5px;
+}
+.important {
+  color:red;
+  height:128px;
+  border: solid 1px;
+  border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -o-border-radius: 10px;
+  margin-right:5px;
+}
+
+
+
+
+
+
+
+	
+
+	
